@@ -1,0 +1,10 @@
+[
+   {
+      "label": "run see++ (or python)",
+      "command": "sh ~/.config/zed/clang-cpp.sh",
+      "description": "Compiles and runs the current code file",
+      "use_new_terminal": false,
+      "allow_concurrent_runs": true,
+      "reveal": "always"
+   }
+]

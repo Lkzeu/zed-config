@@ -1,0 +1,46 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+   "chat_panel": {
+      "dock": "left"
+   },
+   "collaboration_panel": {
+      "dock": "right"
+   },
+   "assistant": {
+      "default_model": {
+         "provider": "zed.dev",
+         "model": "claude-3-5-sonnet-latest"
+      },
+      "version": "2"
+   },
+   "vim_mode": false,
+   "ui_font_size": 16,
+   "buffer_font_size": 17,
+   "theme": {
+      "mode": "system",
+      "light": "One Light",
+      "dark": "Ayu Dark"
+   },
+
+   "tab_size": 3,
+
+   "lsp": {
+      "clangd": {
+         "binary": {
+            "path": "/usr/bin/clangd-15",
+            "args": [
+               "--background-index",
+               "-std=c++17",
+               "--header-insertion=never"
+            ]
+         }
+      }
+   }
+}
