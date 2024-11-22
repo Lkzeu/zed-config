@@ -1,7 +1,7 @@
 # zed-config
 
-copy zed folder files to $HOME/.config/zed/.
+simply copy the files from the zed folder to $HOME/.config/zed
 
 - alt + w: enable/unable inlay hints;
 - alt + e: enable/unable vim mode;
-- alt + r: run task to [compile and] runs code from active file
+- alt + r: run task to compile and execute the current code file
