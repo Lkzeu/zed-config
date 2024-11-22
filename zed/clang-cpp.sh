@@ -1,10 +1,9 @@
 #!/bin/bash
-echo "\t[runing $ZED_FILENAME]\t"
+echo "\t[running $ZED_FILENAME]\t"
+echo "----------------------------------------------------------"
 
 extension="${ZED_FILENAME##*.}"
 output="$ZED_DIRNAME/$ZED_STEM"
-
-echo "----------------------------------------------------------"
 
 if [ "$extension" = "cpp" ]; then
    clang++-15 -std=c++17 "$ZED_FILE" -o "$output.out" && "$output.out";
